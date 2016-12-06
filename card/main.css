@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 * {
     margin: 0px;
@@ -34,3 +35,55 @@ body {
 	from{right: 105%; transform:rotate(-30deg);}
 	to{right: -50%;}
 }
+=======
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+	overflow:hidden;
+}
+h1{
+	display:block;
+	position:absolute;
+	font-size:70px;
+}
+body {
+    background: #ff0000;
+    animation-name: bg-colors;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+}
+@keyframes bg-colors{
+	0%{background:#ff0000;}
+	33%{background:#00ff00;}
+	66%{background:#0000ff;}
+	100%{background:#ff0000;}
+}
+#sec1{
+	top: 48%;
+	color: #FFF;
+	right: 105%;
+	animation-name: sec1;
+	animation-duration: 3s;
+	animation-timing-function:linear;
+}
+@keyframes sec1{
+	from{right: 105%; transform:rotate(-30deg);}
+	to{right: -100%;}
+}
+#sec2{
+	top:52%;
+	font-size: 50px;
+	color: #ff0000;
+	right: -150%;
+	animation-name: sec2;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-delay: 2.5s;
+}
+@keyframes sec2{
+	from{right: -150%; transform: rotate(360deg);}
+	to{right: 105%;}
+}
+>>>>>>> origin/master
