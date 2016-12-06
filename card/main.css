@@ -34,3 +34,15 @@ body {
 	from{right: 105%; transform:rotate(-30deg);}
 	to{right: -100%;}
 }
+#sec2{
+	top:52%;
+	color: #ff0000;
+	animation-name: sec2;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-delay: 3s;
+}
+@keyframes sec2{
+	from{right: -50%; transform: rotate(360deg);}
+	to{right: 105%;}
+}
