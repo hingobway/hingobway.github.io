@@ -4,7 +4,11 @@
     padding: 0px;
 	overflow:hidden;
 }
-
+h1{
+	display:block;
+	position:absolute;
+	font-size:70px;
+}
 body {
     background: #ff0000;
     animation-name: bg-colors;
@@ -19,16 +23,12 @@ body {
 	100%{background:#ff0000;}
 }
 #sec1{
-	display:block;
-	position:absolute;
-	font-size:70px;
 	top: 48%;
 	color: #FFF;
 	right: 105%;
 	animation-name: sec1;
 	animation-duration: 3s;
 	animation-timing-function:linear;
-	animation-iteration-count: infinite;
 }
 @keyframes sec1{
 	from{right: 105%; transform:rotate(-30deg);}
