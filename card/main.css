@@ -37,6 +37,7 @@ body {
 #sec2{
 	top:52%;
 	color: #ff0000;
+	right: -50%;
 	animation-name: sec2;
 	animation-duration: 3s;
 	animation-timing-function: linear;
