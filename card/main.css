@@ -32,5 +32,5 @@ body {
 }
 @keyframes sec1{
 	from{right: 105%; transform:rotate(-30deg);}
-	to{right: -50%;}
+	to{right: -100%;}
 }
