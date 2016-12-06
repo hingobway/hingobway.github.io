@@ -80,7 +80,7 @@ body {
 	animation-name: sec2;
 	animation-duration: 3s;
 	animation-timing-function: linear;
-	animation-delay: 2.5s;
+	animation-delay: 2s;
 }
 @keyframes sec2{
 	from{right: -150%; transform: rotate(360deg);}
