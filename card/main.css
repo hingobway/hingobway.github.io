@@ -10,11 +10,13 @@ h1{
 	font-size:70px;
 }
 #sec3{
-	display:none;
 	position: absolute;
 	font-size: 100px;
 	text-align: center;
 	top: 250px;
+}
+#happy, #cday, #final{
+	display:none;
 }
 body {
     background: #ff0000;
@@ -59,6 +61,6 @@ body {
 	top: 300px;
 	color:#E4E4E4;
 }
-#sec3.activate{
+#happy.activate, #cday.activate, #final.activate{
 	display:block;
 }

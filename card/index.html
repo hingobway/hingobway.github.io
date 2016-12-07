@@ -10,6 +10,19 @@
 		setTimeout(function(){
 				//Happy Christ Day Part
 				$("#sec3").attr("class","activate");
+				$("#happy").attr("class","activate");
+				setTimeout(function(){
+					$("#cday").attr("class","activate");
+					setTimeout(function(){
+						$("#final").attr("class","activate");
+						setTimeout(function(){
+							var restart=confirm("Press OK to restart.");
+							if(restart==true){
+								window.location="";
+							}
+						},2000);
+					},800);
+				},800);
 			},5000);
 	});
 </script>
@@ -19,7 +32,7 @@
 <div id="sec3">
 <div id="happy">HAPPY!</div><br>
 <div id="cday">CHRIST DAY!</div><br>
-<div id="final">LITTLE .....</div>
+<div id="final">LITTLE ****</div>
 </div>
 <h1 id="sec1">HEEEEEEEEEEEEEEEEYYYYY</h1>
 <h1 id="sec2">HOOOOOOOOOOOOOOOOOOOOO</h1>
