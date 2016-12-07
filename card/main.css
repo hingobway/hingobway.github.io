@@ -9,6 +9,13 @@ h1{
 	position:absolute;
 	font-size:70px;
 }
+#sec3{
+	display:none;
+	position: absolute;
+	font-size: 100px;
+	text-align: center;
+	top: 250px;
+}
 body {
     background: #ff0000;
     animation-name: bg-colors;
@@ -48,4 +55,10 @@ body {
 	from{right: -150%; transform: rotate(360deg);}
 	to{right: 105%;}
 }
->>>>>>> origin/master
+#sec3{
+	top: 300px;
+	color:#E4E4E4;
+}
+#sec3.activate{
+	display:block;
+}
