@@ -23,7 +23,14 @@ h1 {
   h2{
     top:0%;
     position:absolute;
+    animation: slider 4s infinite;
   }
+  @keyframes slider{
+    0%{top:0%;}
+    33%{top:50%;}
+    66%{top:100%;}
+    100%{top:0%;}
+}
 body {
     background: url(http://elmers.com/images/default-source/product-catalog-images/e1322-jpg.tmb-thumb500.jpg);
 }
