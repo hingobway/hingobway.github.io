@@ -3,9 +3,11 @@
 A collection of projects, betas, and APIs by hingobway.
 
 ## Sections
-- [www.hingobway.me]()
+- www.hingobway.<span></span>me
   > Static Github projects.
-- [web.hingobway.me]()
+
+- web.hingobway.<span></span>me
   > API/database endpoints.
-- [home.hingobway.me]()
+
+- home.hingobway.<span></span>me
   > Server endpoints--generally protected.
